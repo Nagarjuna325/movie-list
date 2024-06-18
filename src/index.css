@@ -1,0 +1,83 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  margin-bottom: 5px;
+}
+
+.filter-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.movie-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.movie-category {
+  font-size: 14px;
+  color: #666;
+}
+
+.rating-stars {
+  display: flex;
+}
+
+.rating-stars .half-star {
+  position: relative;
+  display: inline-block;
+  width: 24px; /* Adjust based on icon size */
+  display: inline-block;
+  overflow: hidden;
+}
+
+.rating-stars .half-star svg:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+}
+
+.rating-stars .half-star svg:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
